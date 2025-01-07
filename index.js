@@ -5,10 +5,10 @@ const app = express();
 const port = 3000;
 const API_URL = "https://secrets-api.appbrewery.com";
 
-const yourUsername = "Ar";
-const yourPassword = "ILOVEWEBDEV";
-const yourAPIKey = "4f6a742d-2214-4d65-8701-e8b1eaadb4b8";
-const yourBearerToken = "39b53444-197e-43ba-b398-7334229e7dde";
+const yourUsername = "";
+const yourPassword = "";
+const yourAPIKey = "";
+const yourBearerToken = "";
 
 app.get("/", (req, res) => {
   res.render("index.ejs", { content: "API Response." });
